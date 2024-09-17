@@ -1,0 +1,2 @@
+#PROJECT PORTFOLIO
+"Project Portfolio" is a collection of my personal coding projects, showcasing my skills in various programming languages and technologies. The repository features diverse projects, from web development using HTML, CSS, and JavaScript to Python automation scripts. Each project highlights a different aspect of my technical abilities, including problem-solving, design, and implementation, with detailed documentation to aid understanding and usage.
