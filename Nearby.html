@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <title>Nearby</title>
+    <link rel="stylesheet" href="Final.css">
+    <script src="Final.js" defer></script>
+
+</head>
+<body onload="defaultCities()">
+    <header>
+        <div class="T1tle">
+            <img 
+            class="logo"
+            src="https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png"
+            alt="Cloud Icon">
+            <h1>Weather Dashboard</h1>
+        </div>
+        <div class="pages">
+            <a href="Days.html">
+                <button>5-Day</button>
+            </a>
+            <a href="./Hours.html">
+                <button>24-Hour</button>
+            </a>
+            <a href="./Nearby.html">
+                <button>Nearby</button>
+            </a>
+        </div>
+        
+    </header>
+    <div class="searchcontainer">
+        <label for="input"></label>
+        <input type="text" id="input" placeholder="Search...">
+        <button onclick="nearbyForecast()">Search</button>
+    </div>
+    <table id="near">
+        <tr>
+            <th><img class="Icon" id="icon1" src="./Weather Icon/icons8-cloud-lightning-80.png" alt="Weather Icon">Toronto</th>
+            <th id="Toronto"></th>
+        </tr>
+        <tr>
+            <th><img class="Icon" id="icon2" src="./Weather Icon/icons8-cloud-lightning-80.png" alt="Weather Icon">Mississauga</th>
+            <th id="Mississauga"></th>
+        </tr>
+        <tr>
+            <th><img class="Icon" id="icon3" src="./Weather Icon/icons8-cloud-lightning-80.png" alt="Weather Icon">Brampton</th>
+            <th id="Brampton"></th>
+        </tr>
+        <tr>
+            <th><img class="Icon" id="icon4" src="./Weather Icon/icons8-cloud-lightning-80.png" alt="Weather Icon">Hamilton</th>
+            <th id="Hamilton"></th>
+        </tr>
+    </table>
+    <table id="result" style="display: none;">
+        <tr>
+            <th><img class="Icon" id="icon1" src="./Weather Icon/icons8-cloud-lightning-80.png" alt="Weather Icon">9:00</th>
+            <th id="1"></th>
+        </tr>
+        <tr>
+            <th><img class="Icon" id="icon2" src="./Weather Icon/icons8-cloud-lightning-80.png" alt="Weather Icon">12:00</th>
+            <th id="2"></th>
+        </tr>
+        <tr>
+            <th><img class="Icon" id="icon3" src="./Weather Icon/icons8-cloud-lightning-80.png" alt="Weather Icon">3:00</th>
+            <th id="3"></th>
+        </tr>
+        <tr>
+            <th><img class="Icon" id="icon4" src="./Weather Icon/icons8-cloud-lightning-80.png" alt="Weather Icon">6:00</th>
+            <th id="4"></th>
+        </tr>
+    </table>
+</body>
+</html>

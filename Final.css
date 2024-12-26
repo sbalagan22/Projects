@@ -1,0 +1,142 @@
+body {
+  background-color: lightskyblue;
+  text-align: center;
+}
+
+.T1tle {
+  display: flex;
+  background-color: dodgerblue;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 100px;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+  font-size: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  margin: 0;
+  color: white;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  margin-bottom: -15px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: cornflowerblue;
+  display: inline-block;
+}
+
+.pages {
+  display: flex;
+  background-color: cornflowerblue;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Button Styles */
+button,
+button[type="submit"] {
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+button {
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 30px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.2s;
+}
+
+button[type="submit"] {
+  background-color: black;
+  color: white;
+}
+button[type="submit"]:hover {
+  background-color: dodgerblue;
+  transition: 0.3s;
+}
+
+/* Search Bar Container */
+.searchcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+input[type="text"] {
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 300px;
+}
+
+/* Tables*/
+.day,
+.hour,
+#near,
+#result {
+  margin: 20px auto;
+  width: 60%;
+  border: 8px solid dodgerblue;
+  border-collapse: collapse;
+  background-color: cornflowerblue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+/* Table Headers */
+.day th,
+.hour th,
+#near th,
+#result th {
+  font-weight: bold;
+  padding: 15px;
+  border: 3px solid dodgerblue;
+  font-size: 20px;
+}
+
+/* Table Cells */
+.day td,
+.hour td,
+#near td,
+#result td {
+  color: white;
+  padding: 15px;
+  border: 3px solid dodgerblue;
+  font-size: 20px;
+}
+
+/* Table Row Hover */
+.day tr:hover,
+.hour tr:hover,
+#near tr:hover,
+#result tr:hover {
+  background-color: lightblue;
+  transition: background-color 0.3s ease;
+}
+
+.Icon {
+  width: 35px;
+  padding-right: 10px;
+}
