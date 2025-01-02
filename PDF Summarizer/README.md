@@ -27,25 +27,23 @@ To run this project, you need:
   - `customtkinter`
 
 Install the dependencies using:
-```bash
 pip install PyPDF2 customtkinter groq
 
 Setup
-	1.	Clone this repository to your local machine:
+1. Clone this repository to your local machine:
 
-git clone https://github.com/your-username/universal-book-summarizer.git
-cd universal-book-summarizer
-
-
-	2.	Replace the placeholder for the API key in main.py with your Groq API key:
-
-api_key = "your_groq_api_key_here"
+	git clone https://github.com/your-username/universal-book-summarizer.git
+	cd universal-book-summarizer
 
 
-	3.	Run the application:
+2. Replace the placeholder for the API key in main.py with your Groq API key:
 
-python main.py
+	api_key = "your_groq_api_key_here"
 
+
+3. Run the application:
+
+	python main.py
 
 
 Project Structure
