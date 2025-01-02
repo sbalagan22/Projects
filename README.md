@@ -1,2 +1,8 @@
-# Project Portfolio
-This is a collection of my personal coding projects, demonstrating my skills in different areas like web development and automation. Each project comes with clear instructions and examples, showcasing my work and progress.
+# Projects Repository
+
+This repository contains a collection of diverse software development projects. The focus is on building practical solutions across various domains, including web development, desktop applications, and automation tools. 
+
+## Repository Structure
+- **Web Development**: Projects involving modern frameworks and tools.
+- **Desktop Applications**: GUI-based software for productivity and other purposes.
+- **Automation Scripts**: Solutions for repetitive tasks using programming.
