@@ -6,7 +6,7 @@ from groq import Groq
 import prompts
 
 # Set up your API key for Groq
-api_key = "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"  # Use your Groq API key here
+api_key = "your_groq_api_key_here"  # Use your Groq API key here
 
 # Instantiate the Groq client
 client = Groq(api_key=api_key)
